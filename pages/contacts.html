@@ -1,0 +1,130 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact Us | Alvala Company Limited</title>
+
+    <meta
+        name="description"
+        content="Find contact information for Alvala Company Limited and enquire about its business activities, partnerships and development opportunities."
+    >
+
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#111111">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Contact Us | Alvala Company Limited">
+    <meta
+        property="og:description"
+        content="Contact Alvala Company Limited for business enquiries and potential partnerships."
+    >
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../main.css">
+  <link rel="icon" type="image/x-icon" href="../Assets/icon_logo.png">
+
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav-wrap">
+     <a class="brand" href="../index.html">
+      <img src="../Assets/Logo.png" alt="" width="150">
+    </a>
+    
+    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+   
+    <nav class="nav-menu">
+      <a href="../index.html">Home</a>
+      <a href="./About.html">About Us</a>
+      <a href="./our_focus.html">Our Focus</a>
+      <a href="./opportunities.html">Growth Areas</a>
+      <a class="nav-contact" href="./contacts.html" aria-current="page">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero page-hero-contact">
+    <div class="hero-overlay"></div>
+    <div class="container page-hero-content">
+      <p class="eyebrow">CONTACT ALVALA</p>
+      <h1>Let's start a <em>conversation.</em></h1>
+      <p>For business enquiries, partnership discussions or further information about our company.</p>
+      <div class="breadcrumbs"><a href="../index.html">Home</a> / Contact</div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container contact-layout">
+      <div class="contact-intro">
+        <p class="eyebrow eyebrow-dark">GET IN TOUCH</p>
+        <h2>Connect with <em>our team.</em></h2>
+        <p>Use the form to prepare an enquiry. It is currently a front-end form and will not send messages until connected to an email service or backend.</p>
+
+        <div class="contact-info-card">
+          <span class="contact-icon">⌖</span>
+          <div><small>LOCATION</small><strong>Ruangwa District</strong><p>Lindi Region, Tanzania</p></div>
+        </div>
+        <div class="contact-info-card">
+          <span class="contact-icon">↗</span>
+          <div><small>BUSINESS ENQUIRIES</small><strong>General and partnership enquiries</strong><p>Use the form to describe your enquiry.</p></div>
+        </div>
+        <p class="small-note">Official phone number and email can be added after the company confirms them.</p>
+      </div>
+
+      <form class="contact-form" data-contact-form>
+        <h3>Send an enquiry</h3>
+        <p class="form-subtitle">Fields marked * are required.</p>
+
+        <div class="form-row">
+          <label for="name">Full name *</label>
+          <input id="name" name="name" type="text" required autocomplete="name" placeholder="Your name">
+        </div>
+        <div class="form-row">
+          <label for="email">Email address *</label>
+          <input id="email" name="email" type="email" required autocomplete="email" placeholder="you@example.com">
+        </div>
+        <div class="form-row">
+          <label for="organisation">Company / organisation</label>
+          <input id="organisation" name="organisation" type="text" placeholder="Optional">
+        </div>
+        <div class="form-row">
+          <label for="subject">Enquiry type *</label>
+          <select id="subject" name="subject" required>
+            <option value="">Select an enquiry type</option>
+            <option>General enquiry</option>
+            <option>Business partnership</option>
+            <option>Mining and mineral processing</option>
+            <option>Future business opportunity</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div class="form-row">
+          <label for="message">Message *</label>
+          <textarea id="message" name="message" rows="5" required placeholder="How can we help?"></textarea>
+        </div>
+
+        <button class="btn btn-gold form-submit" type="submit">Prepare Enquiry ↗</button>
+        <p class="form-status" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-main">
+     <a class="brand" href="../index.html">
+      <img src="../Assets/Logo.png" alt="" width="150">
+    </a>
+    <p>Mining · Mineral Processing · Business Development</p>
+    <div class="footer-links"><a href="./About.html">About</a><a href="./our_focus.html">Our Focus</a><a href="./opportunities.html">Growth Areas</a><a href="./contacts.html">Contact</a></div>
+  </div>
+  <div class="container footer-bottom"><span>© <span id="year"></span> Alvala Company Limited</span><span>Ruangwa District, Lindi Region, Tanzania</span></div>
+</footer>
+
+<script src="../app.js"></script>
+</body>
+</html>
